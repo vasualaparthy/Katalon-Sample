@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SampleTestSuite" time="88" tests="0" failures="2" errors="0">
+   <testsuite name="SampleTestSuite" tests="0" failures="2" errors="0" time="88" timestamp="2018-07-14 18:41:49" hostname="VasundharaDeviAlapar - DESKTOP-3E2TIL7" id="Test Suites/SampleTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184146"/>
+         <property name="logFiles" value="C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184146\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184146\\1531611756471.png, C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184146\\1531611796108.png"/>
+         <property name="hostName" value="VasundharaDeviAlapar - DESKTOP-3E2TIL7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.0.10"/>
+         <property name="sessionId" value="beb99c03-f308-4a5e-92b0-bcd55d15f7e2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Attempt" classname="Test Cases/Login Attempt" status="FAILED">
+         <failure type="FAILED" message="Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)"/>
+         <system-out><![CDATA[2018-07-14 18:41:51 - [TEST_CASE][FAILED] - Test Cases/Login Attempt: Test Cases/Login Attempt FAILED because (of) Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+
+2018-07-14 18:41:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-14 18:42:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-14 18:42:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sprint.com/en/home/home-vb.html?adobe_mc_ref=&adobe_mc_sdid=SDID%253D47DD35018423999A-70458D37CC460FAB%257CMCORGID%253D5E6C123F5245B32D0A490D45%252540AdobeOrg%257CTS%253D1531609736' successfully
+
+2018-07-14 18:42:31 - [MESSAGE][PASSED] - Navigate to 'https://www.sprint.com/en/home/home-vb.html?adobe_mc_ref=&adobe_mc_sdid=SDID%253D47DD35018423999A-70458D37CC460FAB%257CMCORGID%253D5E6C123F5245B32D0A490D45%252540AdobeOrg%257CTS%253D1531609736' successfully
+
+2018-07-14 18:42:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/a_Sign In' is clicked on
+
+2018-07-14 18:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/a_Sign In' is clicked on
+
+2018-07-14 18:42:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-14 18:42:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-14 18:42:35 - [TEST_STEP][PASSED] - setText: Text 'Testing123' is set on object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_USER'
+
+2018-07-14 18:42:35 - [MESSAGE][PASSED] - Text 'Testing123' is set on object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_USER'
+
+2018-07-14 18:42:35 - [TEST_STEP][FAILED] - setEncryptedText: Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+
+2018-07-14 18:42:37 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+[[ATTACHMENT|C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184146\\1531611756471.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-14 18:41:51 - [TEST_CASE][FAILED] - Test Cases/Login Attempt: Test Cases/Login Attempt FAILED because (of) Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sample" classname="Test Cases/Sample" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Samsung Galaxy S9  Price Revie/button_Continue' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;button id=&quot;continueToProtection&quot; class=&quot;button button--minwidth-md button--full-on-mobile hide&quot; type=&quot;button&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3E2TIL7', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1300, moz:profile: C:\Users\VasundharaDeviAlap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: beb99c03-f308-4a5e-92b0-bcd55d15f7e2)"/>
+         <system-out><![CDATA[2018-07-14 18:42:37 - [TEST_CASE][FAILED] - Test Cases/Sample: Test Cases/Sample FAILED because (of) Unable to click on object 'Object Repository/Page_Samsung Galaxy S9  Price Revie/button_Continue' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <button id="continueToProtection" class="button button--minwidth-md button--full-on-mobile hide" type="button"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3E2TIL7', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1300, moz:profile: C:\Users\VasundharaDeviAlap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: beb99c03-f308-4a5e-92b0-bcd55d15f7e2)
+
+2018-07-14 18:42:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-14 18:42:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-14 18:42:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-14 18:42:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sprint.com/' successfully
+
+2018-07-14 18:43:01 - [MESSAGE][PASSED] - Navigate to 'https://www.sprint.com/' successfully
+
+2018-07-14 18:43:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Value in Wireless  Sprint/span_Shop' is clicked on
+
+2018-07-14 18:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Value in Wireless  Sprint/span_Shop' is clicked on
+
+2018-07-14 18:43:04 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Best Value in Wireless  Sprint/span_Shop' is clickable
+
+2018-07-14 18:43:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Value in Wireless  Sprint/span_Shop' is clickable
+
+2018-07-14 18:43:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' is hovered
+
+2018-07-14 18:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' is hovered
+
+2018-07-14 18:43:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' is clicked on
+
+2018-07-14 18:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' is clicked on
+
+2018-07-14 18:43:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Cell Phones  Smartphones  Spri/img_device-tile__img' is clicked on
+
+2018-07-14 18:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cell Phones  Smartphones  Spri/img_device-tile__img' is clicked on
+
+2018-07-14 18:43:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Samsung Galaxy S9  Price Revie/button_Continue to plan' is clicked on
+
+2018-07-14 18:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Samsung Galaxy S9  Price Revie/button_Continue to plan' is clicked on
+
+2018-07-14 18:43:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Samsung Galaxy S9  Price Revie/button_Continue' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <button id="continueToProtection" class="button button--minwidth-md button--full-on-mobile hide" type="button"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3E2TIL7', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1300, moz:profile: C:\Users\VasundharaDeviAlap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: beb99c03-f308-4a5e-92b0-bcd55d15f7e2)
+
+2018-07-14 18:43:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Samsung Galaxy S9  Price Revie/button_Continue' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <button id="continueToProtection" class="button button--minwidth-md button--full-on-mobile hide" type="button"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3E2TIL7', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1300, moz:profile: C:\Users\VasundharaDeviAlap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: beb99c03-f308-4a5e-92b0-bcd55d15f7e2)
+[[ATTACHMENT|C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184146\\1531611796108.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-14 18:42:37 - [TEST_CASE][FAILED] - Test Cases/Sample: Test Cases/Sample FAILED because (of) Unable to click on object 'Object Repository/Page_Samsung Galaxy S9  Price Revie/button_Continue' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <button id="continueToProtection" class="button button--minwidth-md button--full-on-mobile hide" type="button"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3E2TIL7', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 1300, moz:profile: C:\Users\VasundharaDeviAlap..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: beb99c03-f308-4a5e-92b0-bcd55d15f7e2)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-14 18:41:49 - [TEST_SUITE][FAILED] - SampleTestSuite: Test Cases/Login Attempt FAILED because (of) Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)]]></system-out>
+      <system-err><![CDATA[2018-07-14 18:41:49 - [TEST_SUITE][FAILED] - SampleTestSuite: Test Cases/Login Attempt FAILED because (of) Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)]]></system-err>
+   </testsuite>
+</testsuites>

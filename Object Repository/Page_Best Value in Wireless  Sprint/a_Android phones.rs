@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Android phones</name>
+   <tag></tag>
+   <elementGuidId>f0195d46-d759-471a-99c3-3ad19921e144</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/en/shop/cell-phones.html?manufacturer=Android&amp;INTNAV=TopNav:Shop:Android</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>js-nav-link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Android phones</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;sprint-fonts-loaded&quot;]/body[@class=&quot;vanilla-modal&quot;]/div[@class=&quot;sprint-app&quot;]/header[@class=&quot;layout-header&quot;]/div[2]/div[@class=&quot;sprint-header-bottom&quot;]/div[@class=&quot;sprint-header-inner&quot;]/div[@class=&quot;sprint-header-meta&quot;]/nav[@class=&quot;sprint-header-nav hide-with-overlay&quot;]/ul[@class=&quot;sprint-menu&quot;]/li[3]/div[@class=&quot;sprint-menu__root-content&quot;]/ul[@class=&quot;sprint-menu__submenu-container&quot;]/li[@class=&quot;sprint-menu__submenu has-children&quot;]/ul[@class=&quot;sprint-menu__submenu-children&quot;]/li[2]/a[@class=&quot;js-nav-link&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

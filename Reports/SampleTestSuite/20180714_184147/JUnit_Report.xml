@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SampleTestSuite" time="51" tests="0" failures="2" errors="0">
+   <testsuite name="SampleTestSuite" tests="0" failures="2" errors="0" time="51" timestamp="2018-07-14 18:41:50" hostname="VasundharaDeviAlapar - DESKTOP-3E2TIL7" id="Test Suites/SampleTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184147"/>
+         <property name="logFiles" value="C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184147\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184147\\1531611738969.png, C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184147\\1531611759894.png"/>
+         <property name="hostName" value="VasundharaDeviAlapar - DESKTOP-3E2TIL7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.0.10"/>
+         <property name="sessionId" value="174673b5a85f3c16f89a78ffc5317031"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Attempt" classname="Test Cases/Login Attempt" status="FAILED">
+         <failure type="FAILED" message="Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)"/>
+         <system-out><![CDATA[2018-07-14 18:41:50 - [TEST_CASE][FAILED] - Test Cases/Login Attempt: Test Cases/Login Attempt FAILED because (of) Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+
+2018-07-14 18:41:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-14 18:42:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-14 18:42:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sprint.com/en/home/home-vb.html?adobe_mc_ref=&adobe_mc_sdid=SDID%253D47DD35018423999A-70458D37CC460FAB%257CMCORGID%253D5E6C123F5245B32D0A490D45%252540AdobeOrg%257CTS%253D1531609736' successfully
+
+2018-07-14 18:42:13 - [MESSAGE][PASSED] - Navigate to 'https://www.sprint.com/en/home/home-vb.html?adobe_mc_ref=&adobe_mc_sdid=SDID%253D47DD35018423999A-70458D37CC460FAB%257CMCORGID%253D5E6C123F5245B32D0A490D45%252540AdobeOrg%257CTS%253D1531609736' successfully
+
+2018-07-14 18:42:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/a_Sign In' is clicked on
+
+2018-07-14 18:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/a_Sign In' is clicked on
+
+2018-07-14 18:42:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-14 18:42:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-14 18:42:17 - [TEST_STEP][PASSED] - setText: Text 'Testing123' is set on object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_USER'
+
+2018-07-14 18:42:18 - [MESSAGE][PASSED] - Text 'Testing123' is set on object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_USER'
+
+2018-07-14 18:42:18 - [TEST_STEP][FAILED] - setEncryptedText: Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+
+2018-07-14 18:42:19 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+[[ATTACHMENT|C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184147\\1531611738969.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-14 18:41:50 - [TEST_CASE][FAILED] - Test Cases/Login Attempt: Test Cases/Login Attempt FAILED because (of) Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sample" classname="Test Cases/Sample" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3E2TIL7', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\VASUND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 174673b5a85f3c16f89a78ffc5317031)"/>
+         <system-out><![CDATA[2018-07-14 18:42:19 - [TEST_CASE][FAILED] - Test Cases/Sample: Test Cases/Sample FAILED because (of) Unable to click on object 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3E2TIL7', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\VASUND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 174673b5a85f3c16f89a78ffc5317031)
+
+2018-07-14 18:42:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-14 18:42:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-14 18:42:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-14 18:42:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.sprint.com/' successfully
+
+2018-07-14 18:42:39 - [MESSAGE][PASSED] - Navigate to 'https://www.sprint.com/' successfully
+
+2018-07-14 18:42:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Best Value in Wireless  Sprint/span_Shop' is clicked on
+
+2018-07-14 18:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Value in Wireless  Sprint/span_Shop' is clicked on
+
+2018-07-14 18:42:39 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_Best Value in Wireless  Sprint/span_Shop' is clickable
+
+2018-07-14 18:42:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Best Value in Wireless  Sprint/span_Shop' is clickable
+
+2018-07-14 18:42:39 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' is hovered
+
+2018-07-14 18:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' is hovered
+
+2018-07-14 18:42:39 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3E2TIL7', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\VASUND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 174673b5a85f3c16f89a78ffc5317031)
+
+2018-07-14 18:42:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3E2TIL7', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\VASUND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 174673b5a85f3c16f89a78ffc5317031)
+[[ATTACHMENT|C:\\Users\\VasundharaDeviAlapar\\Katalon Studio\\Katalon sample\\Reports\\SampleTestSuite\\20180714_184147\\1531611759894.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-14 18:42:19 - [TEST_CASE][FAILED] - Test Cases/Sample: Test Cases/Sample FAILED because (of) Unable to click on object 'Object Repository/Page_Best Value in Wireless  Sprint/a_Android phones' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3E2TIL7', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\VASUND~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 174673b5a85f3c16f89a78ffc5317031)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-14 18:41:50 - [TEST_SUITE][FAILED] - SampleTestSuite: Test Cases/Login Attempt FAILED because (of) Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)]]></system-out>
+      <system-err><![CDATA[2018-07-14 18:41:50 - [TEST_SUITE][FAILED] - SampleTestSuite: Test Cases/Login Attempt FAILED because (of) Unable to set encrypted text for object 'Object Repository/Page_Best Value in Wireless  Sprint/Page_Sprint/input_PASSWORD' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)]]></system-err>
+   </testsuite>
+</testsuites>
